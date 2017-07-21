@@ -1,0 +1,64 @@
+*{box-sizing:border-box}hgroup{position:relative;font-family:'Baloo',cursive;animation:group 2s linear 1}@keyframes group{from{top:-100px}to{top:0}}.glyphicon-search{color:#b7b7b7}.ion-android-lock{font-size:1.3em}.logo{margin-top:1.5em;animation:image 2s linear 1}footer p{text-align:center}
+
+
+html, body {
+    min-height: 100%;
+    position: relative;
+} 
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin-left: 15px;
+}
+
+#prenomClient {
+    color: #337ab7;
+}
+
+.imageProduit {
+    width: 12em;
+    height: 10em;
+    margin: auto;
+}
+
+.imagePanier {
+    width: 4em;
+    height: 3em;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+}
+.panel {
+    background: #FAFAFA;
+    margin: 5px 5px;
+}
+
+.rupture {
+    color: red;
+    margin-top: 50px;
+    font-size: 2em;
+}
+
+.autofstock {
+    height: 140px
+}
+
+.formulaireContact {
+    margin-top: 50px;
+}
+
+.obligatoire::after {
+    color:red;
+    content: ' * ';
+    font-size: 1.1em;
+}
+
+.displayFlex {
+    display: flex;
+}
